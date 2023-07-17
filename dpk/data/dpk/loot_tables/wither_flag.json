@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,display:{Name:'{\"color\":\"gold\",\"text\":\"凋灵旗帜\"}'},BlockEntityTag:{Patterns:[{Color:15,Pattern:\"hhb\"},{Color:8,Pattern:\"bs\"},{Color:15,Pattern:\"cs\"},{Color:8,Pattern:\"hh\"},{Color:15,Pattern:\"cre\"},{Color:15,Pattern:\"sku\"}],id:\"minecraft:banner\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

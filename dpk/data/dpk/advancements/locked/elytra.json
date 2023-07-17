@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dpk:elytra",
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "minecraft:end/elytra": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dpk:locked/elytra"
+    }
+}

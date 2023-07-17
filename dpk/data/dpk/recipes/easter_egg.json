@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:dragon_egg"
+        },
+        {
+            "item": "minecraft:turtle_egg"
+        },
+        {
+            "item": "minecraft:sniffer_egg"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

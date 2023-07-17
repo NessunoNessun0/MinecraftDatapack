@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dpk:easter_egg"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dpk:easter_egg"
+    }
+}

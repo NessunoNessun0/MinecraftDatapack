@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{display:{Lore:['{\"italic\":false,\"color\":\"white\",\"text\":\"“仅献给配得上的人”\"}'],Name:'{\"bold\":false,\"italic\":false,\"color\":\"#f08d8d\",\"text\":\"RED药水\"}'},CustomPotionEffects:[{Id:1,Duration:-1},{Id:2,Duration:-1},{Id:3,Duration:-1},{Id:4,Duration:-1},{Id:5,Duration:-1},{Id:6,Duration:-1},{Id:7,Duration:-1},{Id:8,Duration:-1},{Id:9,Duration:-1},{Id:10,Duration:-1},{Id:11,Duration:-1},{Id:12,Duration:-1},{Id:13,Duration:-1},{Id:14,Duration:-1},{Id:15,Duration:-1},{Id:16,Duration:-1},{Id:17,Duration:-1},{Id:18,Duration:-1},{Id:19,Duration:-1},{Id:20,Duration:-1},{Id:21,Duration:-1},{Id:22,Duration:-1},{Id:23,Duration:-1},{Id:24,Duration:-1},{Id:25,Duration:-1},{Id:26,Duration:-1},{Id:27,Duration:-1},{Id:28,Duration:-1},{Id:29,Duration:-1},{Id:30,Duration:-1},{Id:31,Duration:-1},{Id:32,Duration:-1},{Id:33,Duration:-1}],Potion:\"minecraft:empty\",CustomPotionColor:16711680,HideFlags:32}",
+            "potion": "empty"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "potion",
+      "nbt": "{display:{Lore:['{\"italic\":false,\"color\":\"white\",\"text\":\"“仅献给配得上的人”\"}'],Name:'{\"bold\":false,\"italic\":false,\"color\":\"#f08d8d\",\"text\":\"RED药水\"}'},CustomPotionEffects:[{Id:1,Duration:-1},{Id:2,Duration:-1},{Id:3,Duration:-1},{Id:4,Duration:-1},{Id:5,Duration:-1},{Id:6,Duration:-1},{Id:7,Duration:-1},{Id:8,Duration:-1},{Id:9,Duration:-1},{Id:10,Duration:-1},{Id:11,Duration:-1},{Id:12,Duration:-1},{Id:13,Duration:-1},{Id:14,Duration:-1},{Id:15,Duration:-1},{Id:16,Duration:-1},{Id:17,Duration:-1},{Id:18,Duration:-1},{Id:19,Duration:-1},{Id:20,Duration:-1},{Id:21,Duration:-1},{Id:22,Duration:-1},{Id:23,Duration:-1},{Id:24,Duration:-1},{Id:25,Duration:-1},{Id:26,Duration:-1},{Id:27,Duration:-1},{Id:28,Duration:-1},{Id:29,Duration:-1},{Id:30,Duration:-1},{Id:31,Duration:-1},{Id:32,Duration:-1},{Id:33,Duration:-1}],Potion:\"minecraft:empty\",CustomPotionColor:16711680,HideFlags:32}"
+    },
+    "title": {
+      "text": "来自异次元的佳酿"
+    },
+    "description": {
+      "text": "试试《泰拉瑞亚》吧！",
+      "color": "yellow"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "story/root"
+}

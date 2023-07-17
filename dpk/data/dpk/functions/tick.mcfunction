@@ -1,0 +1,1 @@
+execute as @a[scores={used=1..}] at @s run function dpk:used

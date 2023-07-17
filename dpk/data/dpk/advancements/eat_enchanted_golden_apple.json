@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "君临天下"
+    },
+    "description": {
+      "text": "吃掉本游戏最强大的食物"
+    }
+  },
+  "parent": "adventure/root"
+}

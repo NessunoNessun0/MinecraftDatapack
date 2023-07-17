@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "text": "再次获得升级！"
+    },
+    "description": {
+      "text": "获得下界合金升级模板"
+    }
+  },
+  "parent": "nether/find_bastion"
+}

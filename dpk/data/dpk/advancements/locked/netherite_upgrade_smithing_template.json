@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dpk:netherite_upgrade_smithing_template",
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "dpk:netherite_upgrade_smithing_template": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dpk:locked/netherite_upgrade_smithing_template"
+    }
+}

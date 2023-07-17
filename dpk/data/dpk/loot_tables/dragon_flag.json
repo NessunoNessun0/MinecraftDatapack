@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,display:{Name:'{\"color\":\"gold\",\"text\":\"龙之旗帜\"}'},BlockEntityTag:{Patterns:[{Color:15,Pattern:\"cbo\"},{Color:7,Pattern:\"rs\"},{Color:10,Pattern:\"flo\"},{Color:15,Pattern:\"ms\"},{Color:7,Pattern:\"tt\"},{Color:15,Pattern:\"moj\"}],id:\"minecraft:banner\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
